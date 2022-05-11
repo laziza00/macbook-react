@@ -1,0 +1,310 @@
+.hero {
+    margin: 80px 0 0 0;
+}
+.mac__big-box {
+    display: flex;
+}
+.mac__slider-box {
+    display: flex; 
+    transition: all 0.3s ease;
+    margin: 0 0 30px 0; 
+    list-style-type: none;
+}
+.mac__info-desc {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 0 35px;
+}
+.mac__ram-box {
+    display: flex;  
+    margin: 0 0 25px 0;
+}
+.mac__img-box {
+    overflow: hidden;
+}
+.mac__ram-hotira {
+    display: flex;  
+    margin: 0 0 25px 0;
+}
+.mac__ram-color {
+    display: flex; 
+    margin: 0 0 25px 0; 
+    flex-wrap: wrap;
+}
+.mac__price-inner {
+    margin: 45px 0;
+}
+
+.mac__logo {
+    font-size: 22px;
+  }
+  .hero {
+    margin: 80px 0 0 0;
+    padding: 50px 0;
+  }
+  .mac__big-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mac__info {
+    width: 50%;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+  }
+  .mac__title {
+    width: 85%;
+    font-size: 48px;
+    color: #1d1d1d;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 10px;
+  }
+  .mac__img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: 0 75px 40px 75px;
+    transition: all 0.3s ease;
+  }
+  .mac__info-desc {
+    width: 100%;
+  }
+  .mac__img-box {
+    padding: 50px 0;
+    width: 50%;
+    position: relative;
+  }
+  .mac__ram {
+    font-size: 18px;
+    color: #1d1d1d;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+  }
+  .mac__btn {
+    color: #0066cc;
+    font-size: 62px;
+    background-color: transparent;
+    border: none;
+  }
+  .mac__ram-btn {
+    font-size: 23px;
+    color: #1d1d1d;
+    padding: 16px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 12px;
+    display: block;
+    border: 3px solid #1d1d1d;
+    width: 200px;
+    margin: 0 7px;
+    text-transform: uppercase;
+  }
+  .active {
+    border: 3px solid #0066cc;
+  }
+  .mac__price {
+    font-family: SF Compact Display,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 8px 0;
+  }
+  .mac__price2 {
+    font-weight: 300;
+    text-decoration: line-through;
+  }
+  .mac__price-btn {
+    background: #0066cc;
+    height: 48px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .no-active {
+    background-color: #fff;
+    color: #0066cc;
+  }
+  .header__select {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+  }
+  .option{
+    background-color: #1d1d1d;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+  }
+
+.mac__img-btn {
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 28px;
+    font-weight: 600;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .color {
+    padding: 10px;
+    width: 270px;
+    margin: 0 5px 15px 5px;
+    font-size: 18px !important;
+    text-transform: capitalize;
+  }
+  .color:nth-child(1) span {
+    background-color: rgb(243, 211, 32);
+  }
+  .color:nth-child(2) span {
+    background-color: rgb(141, 141, 135);
+  }
+  .color:nth-child(3) span {
+    background-color: rgb(92, 92, 89);
+  }
+  .color span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 5px auto;
+  }
+  
+  .mac__img-btn:hover {
+    border: 3px solid #1d1d1d;
+    transition: all 0.3s ease;
+  }
+  
+  .mac__img-inner {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+  }
+  .act-border {
+    border: 3px solid #1d1d1d;
+    border-radius: 10px;
+  }
+  
+  .addBox {
+    margin-bottom: 16px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #888;
+    border-radius: 8px;
+  }
+  
+  .minusBtn {
+    width: 27%;
+    background-color: #fff;
+    border: none;
+    border-right: none;
+  }
+  .numberInput {
+    width: 30%;
+    padding: 6px;
+    width: 80px;
+    outline: none;
+    border: 1px solid #888;
+    border-top-color: transparent;
+  }
+  
+  .plusBtn {
+    width: 25%;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .mac__full-btn {
+    position: absolute;
+    top: 43%;
+    left: 460px;
+    background-color: transparent;
+    color: #888;
+    font-size: 40px;
+    border: none;
+  }
+  .mac__full-btn:hover {
+    color: #0066cc;
+  }
+  .modal__img-btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  .modal__img-btn:hover {
+    border: 2px solid #1d1d1d;
+    transition: all 0.3s ease;
+  }
+  .modal__img-inner{
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+  }
+  .modal__img {
+    width: 500px;
+    height: 350px;
+    margin: 0 320px;
+    transition: all 0.3s ease;
+  }
+  .modal-border {
+    border: 2px solid #1d1d1d;
+  }
+  .modal__slider-box {
+     display: flex;
+     transition: all 0.3s ease; 
+     margin: 0 40px;
+  }
+  .modal {
+    height: 900px !important;
+  }
+  .tahlil__item {
+    margin: 0 40px;
+  }
+  .tahlil__img {
+    width: 350px;
+    height: 250px;
+  }
+  
+  .yordam__btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #1d1d1d;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #c5c5c5;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .yordam__btn i{
+    font-size: 24px;
+  }
